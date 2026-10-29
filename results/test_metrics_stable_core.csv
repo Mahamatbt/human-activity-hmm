@@ -1,0 +1,5 @@
+Activity,Number of Samples,Sensitivity,Specificity,Overall Accuracy,One-vs-Rest Accuracy,Precision,F1,TP,FN,FP,TN,Reference quality
+standing,3,0.6666666666666666,0.7692307692307693,0.375,0.75,0.4,0.5,2,1,3,10,Participant-confirmed order; approximate signal-assisted timings
+walking,4,0.25,0.6666666666666666,0.375,0.5625,0.2,0.2222222222222222,1,3,4,8,Participant-confirmed order; approximate signal-assisted timings
+jumping,3,1.0,1.0,0.375,1.0,1.0,1.0,3,0,0,13,Participant-confirmed order; approximate signal-assisted timings
+still,6,0.0,0.7,0.375,0.4375,0.0,0.0,0,6,3,7,Participant-confirmed order; approximate signal-assisted timings

@@ -1,0 +1,21 @@
+{
+  "model": "frozen compact4_log1p_window v2",
+  "model_sha256": "4f15d0f912445acbd93df99cb6abe201d2fa7abb56bce3fd27a77a93145980d8",
+  "evaluated_split": "fresh_test_v2",
+  "source_recordings": [
+    "standing-2026-10-28_18-56-21.zip",
+    "walking-2026-10-28_18-57-17.zip",
+    "jumping-2026-10-28_18-57-46.zip",
+    "still-2026-10-28_18-56-50.zip"
+  ],
+  "same_participant": true,
+  "same_phone": true,
+  "same_date": true,
+  "independent_single_activity_recordings": 4,
+  "n_windows": 30,
+  "accuracy": 0.9,
+  "macro_f1": 0.8877005347593583,
+  "correct_windows": 27,
+  "changes_to_model_after_test": 0,
+  "interpretation": "New recordings were held out from v2 model selection. Four separate single-activity files test state recognition, not transitions within a continuous run. Windows within each file are correlated."
+}

@@ -1,0 +1,5 @@
+method,accuracy,macro_f1,n_windows
+Viterbi: all approximate-reference windows,0.4583333333333333,0.4697802197802198,24
+Viterbi: annotated-pure windows,0.4583333333333333,0.4697802197802198,24
+Viterbi: guarded stable cores,0.375,0.4305555555555556,16
+Emission-only: all approximate-reference windows,0.4583333333333333,0.4666666666666667,24

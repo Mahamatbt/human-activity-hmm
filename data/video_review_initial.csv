@@ -1,0 +1,5 @@
+activity,video_url,local_file,duration_s,recording_id,face_and_full_body_visible,review_status,notes
+jumping,,videos/Jumping video.MP4,4.868333,,visible in sampled frames,needs_longer_activity_segment,Duration below 5 seconds; replace with a longer original or new recording.
+standing,,videos/Standing video.MP4,4.768333,,visible in sampled frames,needs_longer_activity_segment,Duration below 5 seconds; replace with a longer original or new recording.
+still,,videos/Still video.MP4,5.266667,,visible in sampled frames,needs_longer_activity_segment,Includes phone placement; stationary portion is shorter than 5 seconds.
+walking,,videos/walking video.MP4,5.233333,,visible in sampled frames,duration_checked,Duration exceeds 5 seconds. Face and body visible in sampled frames.

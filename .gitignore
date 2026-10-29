@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+data/raw/*.zip
+tmp/
+# Only the four browser-compatible evidence copies in docs/videos are published.
+videos/*.MP4

@@ -1,0 +1,9 @@
+candidate,features,transform,weighting,n_features,accuracy,macro_f1,n_windows,stable_core_accuracy
+compact4_log1p_window,compact4,log1p,window,4,0.9047619047619048,0.9040404040404041,21,1.0
+compact4_raw_recording,compact4,raw,recording,4,0.9047619047619048,0.9040404040404041,21,1.0
+compact4_log1p_recording,compact4,log1p,recording,4,0.9047619047619048,0.9040404040404041,21,1.0
+all8_log1p_window,all8,log1p,window,8,0.8571428571428571,0.8578282828282828,21,1.0
+all8_log1p_recording,all8,log1p,recording,8,0.8571428571428571,0.8578282828282828,21,1.0
+compact4_raw_window,compact4,raw,window,4,0.8095238095238095,0.7867965367965368,21,0.8461538461538461
+all8_raw_window,all8,raw,window,8,0.5714285714285714,0.5694444444444444,21,0.6153846153846154
+all8_raw_recording,all8,raw,recording,8,0.5714285714285714,0.5694444444444444,21,0.6153846153846154

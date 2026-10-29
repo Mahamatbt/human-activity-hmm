@@ -1,0 +1,5 @@
+Activity,Number of Samples,Sensitivity,Specificity,Overall Accuracy,One-vs-Rest Accuracy,Precision,F1,TP,FN,FP,TN
+standing,7,0.5714285714285714,1.0,0.9,0.9,1.0,0.7272727272727273,4,3,0,23
+walking,8,1.0,1.0,0.9,1.0,1.0,1.0,8,0,0,22
+jumping,8,1.0,1.0,0.9,1.0,1.0,1.0,8,0,0,22
+still,7,1.0,0.8695652173913043,0.9,0.9,0.7,0.8235294117647058,7,0,3,20

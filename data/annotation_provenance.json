@@ -1,0 +1,117 @@
+{
+  "status": "Provisional annotations; not independently time-verified",
+  "frozen_before_new_model_selection": true,
+  "test_order": "jumping, walking, still, standing",
+  "test_order_explicitly_confirmed_twice": true,
+  "signal_mismatch": "Very quiet interval about 16–23 s precedes sustained movement about 24–39 s; do not swap participant-confirmed labels to improve scores.",
+  "guard_meaning": "Predefined 2 s boundary exclusion, not an empirical confidence interval.",
+  "records": [
+    {
+      "recording_id": "p01_test_mixed_20261028",
+      "annotation_file": "data/annotations/p01_test_mixed_20261028.csv",
+      "sha256": "380c79d7ef48e7ac6ab008751117ff7eae1f6a25f4bc1ab71a5b495c2d519838",
+      "intervals": [
+        {
+          "start_s": 2,
+          "end_s": 12,
+          "activity": "jumping"
+        },
+        {
+          "start_s": 12,
+          "end_s": 24,
+          "activity": "walking"
+        },
+        {
+          "start_s": 24,
+          "end_s": 40,
+          "activity": "still"
+        },
+        {
+          "start_s": 40,
+          "end_s": 50,
+          "activity": "standing"
+        }
+      ],
+      "quality": "approximate",
+      "boundary_guard_s": 2
+    },
+    {
+      "recording_id": "p01_train_mixed_20261028",
+      "annotation_file": "data/annotations/p01_train_mixed_20261028.csv",
+      "sha256": "bcf5f635dcd05fc30206eefdbc9f77f5a8cada48764cd9794093f1af7c171130",
+      "intervals": [
+        {
+          "start_s": 2,
+          "end_s": 8,
+          "activity": "standing"
+        },
+        {
+          "start_s": 8,
+          "end_s": 22,
+          "activity": "walking"
+        },
+        {
+          "start_s": 22,
+          "end_s": 30,
+          "activity": "standing"
+        },
+        {
+          "start_s": 30,
+          "end_s": 41,
+          "activity": "jumping"
+        },
+        {
+          "start_s": 41,
+          "end_s": 54,
+          "activity": "standing"
+        },
+        {
+          "start_s": 54,
+          "end_s": 68,
+          "activity": "still"
+        },
+        {
+          "start_s": 68,
+          "end_s": 79,
+          "activity": "standing"
+        },
+        {
+          "start_s": 79,
+          "end_s": 94,
+          "activity": "walking"
+        }
+      ],
+      "quality": "approximate",
+      "boundary_guard_s": 2
+    },
+    {
+      "recording_id": "p01_validation_mixed_20261028",
+      "annotation_file": "data/annotations/p01_validation_mixed_20261028.csv",
+      "sha256": "3962248a372de4ed2124f5b29a8ffd98b333163510e8a018b8cf343392b222f5",
+      "intervals": [
+        {
+          "start_s": 2,
+          "end_s": 12,
+          "activity": "walking"
+        },
+        {
+          "start_s": 12,
+          "end_s": 20,
+          "activity": "standing"
+        },
+        {
+          "start_s": 20,
+          "end_s": 32,
+          "activity": "jumping"
+        },
+        {
+          "start_s": 32,
+          "end_s": 44,
+          "activity": "still"
+        }
+      ],
+      "quality": "approximate",
+      "boundary_guard_s": 2
+    }
+  ]
+}

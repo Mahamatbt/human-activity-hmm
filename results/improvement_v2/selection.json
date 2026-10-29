@@ -1,0 +1,31 @@
+{
+  "status": "development model; awaiting fresh independently timed test",
+  "selected_candidate": "compact4_log1p_window",
+  "feature_names": [
+    "acc_mag_mean",
+    "acc_mag_std",
+    "gyro_mag_rms",
+    "acc_highband_fraction"
+  ],
+  "feature_set": "compact4",
+  "transform": "log1p",
+  "emission_weighting": "window",
+  "smoothing": 0.1,
+  "variance_floor": 0.05,
+  "validation_accuracy": 0.9047619047619048,
+  "validation_macro_f1": 0.9040404040404041,
+  "n_validation_windows": 21,
+  "annotation_quality": "Existing validation intervals remain approximate",
+  "test_files_loaded": 0,
+  "test_predictions_computed": 0,
+  "historical_test_accuracy_is_not_v2_accuracy": true,
+  "loaded_recording_ids": [
+    "p01_train_jumping_20261028",
+    "p01_train_standing_20261028",
+    "p01_train_still_20261028",
+    "p01_train_walking_20261028",
+    "p01_train_mixed_20261028",
+    "p01_validation_mixed_20261028"
+  ],
+  "selection_rule": "validation macro-F1, then accuracy, fewer features, standard fit"
+}

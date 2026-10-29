@@ -1,0 +1,8 @@
+recording_id,session,split,activity,windows,pure_windows,stable_core_windows,annotation_quality
+p01_train_jumping_20261028,session_20261028_initial,train,jumping,59,59,59,participant-labelled single-activity file
+p01_train_standing_20261028,session_20261028_initial,train,standing,59,59,59,participant-labelled single-activity file
+p01_train_still_20261028,session_20261028_initial,train,still,59,59,59,participant-labelled single-activity file
+p01_train_walking_20261028,session_20261028_initial,train,walking,59,59,59,participant-labelled single-activity file
+p01_test_mixed_20261028,run_20261028_test_mixed,test,mixed,24,24,16,approximate participant order; signal-assisted timing; unverified
+p01_train_mixed_20261028,run_20261028_train_mixed,train,mixed,46,44,28,approximate participant order; signal-assisted timing; unverified
+p01_validation_mixed_20261028,run_20261028_validation_mixed,validation,mixed,21,21,13,approximate participant order; signal-assisted timing; unverified

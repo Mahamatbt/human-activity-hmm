@@ -1,0 +1,194 @@
+[
+  {
+    "source_archive": "jumping-2026-10-28_18-57-46.zip",
+    "source_archive_sha256": "9a2506e380e9482520a184a04dd4d238f64a6596088ace3aeec51de79ea8e7c0",
+    "source_member": "Accelerometer.csv",
+    "destination": "data/raw/p01_fresh_test_v2_jumping_20261028/Accelerometer.csv",
+    "sha256": "2cdfec3c4604888b4635fa84b2799baf678de7b9f5f3a7571c3bd8a3f9c2d1f7",
+    "bytes": 89301
+  },
+  {
+    "source_archive": "jumping-2026-10-28_18-57-46.zip",
+    "source_archive_sha256": "9a2506e380e9482520a184a04dd4d238f64a6596088ace3aeec51de79ea8e7c0",
+    "source_member": "Gyroscope.csv",
+    "destination": "data/raw/p01_fresh_test_v2_jumping_20261028/Gyroscope.csv",
+    "sha256": "8d24e1c423421eb6c330a155b858970e50cc4c3e07c301c9cbc30fd06a508d53",
+    "bytes": 91464
+  },
+  {
+    "source_archive": "jumping-2026-10-28_18-57-46.zip",
+    "source_archive_sha256": "9a2506e380e9482520a184a04dd4d238f64a6596088ace3aeec51de79ea8e7c0",
+    "source_member": "AccelerometerUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_jumping_20261028/AccelerometerUncalibrated.csv",
+    "sha256": "db012f8e6940fd6af7a38e37ae871cd1fd440908b4aa967240d98430b8f500b8",
+    "bytes": 88467
+  },
+  {
+    "source_archive": "jumping-2026-10-28_18-57-46.zip",
+    "source_archive_sha256": "9a2506e380e9482520a184a04dd4d238f64a6596088ace3aeec51de79ea8e7c0",
+    "source_member": "GyroscopeUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_jumping_20261028/GyroscopeUncalibrated.csv",
+    "sha256": "35a566ac8df2d87acd94e9fd05780c25305901cc2480f49ba83212e56baa7d1d",
+    "bytes": 91502
+  },
+  {
+    "source_archive": "jumping-2026-10-28_18-57-46.zip",
+    "source_archive_sha256": "9a2506e380e9482520a184a04dd4d238f64a6596088ace3aeec51de79ea8e7c0",
+    "source_member": "Metadata.csv",
+    "destination": "data/raw/p01_fresh_test_v2_jumping_20261028/Metadata.csv",
+    "sha256": "24dea465fc0018d6027f24e1cf5bf15be83dab9ac90159adb57322d61d179d6d",
+    "bytes": 375
+  },
+  {
+    "source_archive": "jumping-2026-10-28_18-57-46.zip",
+    "source_archive_sha256": "9a2506e380e9482520a184a04dd4d238f64a6596088ace3aeec51de79ea8e7c0",
+    "source_member": "Annotation.csv",
+    "destination": "data/raw/p01_fresh_test_v2_jumping_20261028/Annotation.csv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source_archive": "standing-2026-10-28_18-56-21.zip",
+    "source_archive_sha256": "a168ee943086d8293a455fe05bc80e5acbbb727696332dc7965ad57226dfe7cf",
+    "source_member": "Accelerometer.csv",
+    "destination": "data/raw/p01_fresh_test_v2_standing_20261028/Accelerometer.csv",
+    "sha256": "02250a15f3f2b7fcd8c403168190a34c4a3706e3f46f3070ea180ada79df0728",
+    "bytes": 86046
+  },
+  {
+    "source_archive": "standing-2026-10-28_18-56-21.zip",
+    "source_archive_sha256": "a168ee943086d8293a455fe05bc80e5acbbb727696332dc7965ad57226dfe7cf",
+    "source_member": "Gyroscope.csv",
+    "destination": "data/raw/p01_fresh_test_v2_standing_20261028/Gyroscope.csv",
+    "sha256": "ac16415c96216575a5a78bbb67b2273c1ed5b967d380b2787eda42d279a0bd85",
+    "bytes": 87611
+  },
+  {
+    "source_archive": "standing-2026-10-28_18-56-21.zip",
+    "source_archive_sha256": "a168ee943086d8293a455fe05bc80e5acbbb727696332dc7965ad57226dfe7cf",
+    "source_member": "AccelerometerUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_standing_20261028/AccelerometerUncalibrated.csv",
+    "sha256": "be6d1c81d5b550ee4d1ab035c87fe8b029e92322d8beab6a081ac6f8b0570bb2",
+    "bytes": 81974
+  },
+  {
+    "source_archive": "standing-2026-10-28_18-56-21.zip",
+    "source_archive_sha256": "a168ee943086d8293a455fe05bc80e5acbbb727696332dc7965ad57226dfe7cf",
+    "source_member": "GyroscopeUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_standing_20261028/GyroscopeUncalibrated.csv",
+    "sha256": "a7c262582b898971f7ca0d973c2d549ec182efcf8f257b3c24b8de889d6a3466",
+    "bytes": 87626
+  },
+  {
+    "source_archive": "standing-2026-10-28_18-56-21.zip",
+    "source_archive_sha256": "a168ee943086d8293a455fe05bc80e5acbbb727696332dc7965ad57226dfe7cf",
+    "source_member": "Metadata.csv",
+    "destination": "data/raw/p01_fresh_test_v2_standing_20261028/Metadata.csv",
+    "sha256": "569c55afc334c47877f5c00f7591d264b69d1994495ba38555be06fafe38a248",
+    "bytes": 375
+  },
+  {
+    "source_archive": "standing-2026-10-28_18-56-21.zip",
+    "source_archive_sha256": "a168ee943086d8293a455fe05bc80e5acbbb727696332dc7965ad57226dfe7cf",
+    "source_member": "Annotation.csv",
+    "destination": "data/raw/p01_fresh_test_v2_standing_20261028/Annotation.csv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source_archive": "still-2026-10-28_18-56-50.zip",
+    "source_archive_sha256": "747637113b4f17ea0f1d317eda156a09513b7e64cfccf8839d85a7417f96f4d9",
+    "source_member": "Accelerometer.csv",
+    "destination": "data/raw/p01_fresh_test_v2_still_20261028/Accelerometer.csv",
+    "sha256": "18d373a337a6d0c7f5351d0f441d5a9a1a27d75efea050a43fbeb16dba878916",
+    "bytes": 88204
+  },
+  {
+    "source_archive": "still-2026-10-28_18-56-50.zip",
+    "source_archive_sha256": "747637113b4f17ea0f1d317eda156a09513b7e64cfccf8839d85a7417f96f4d9",
+    "source_member": "Gyroscope.csv",
+    "destination": "data/raw/p01_fresh_test_v2_still_20261028/Gyroscope.csv",
+    "sha256": "b1c56513da3c24492dd022106580fc93251a43c5809370c87fd7bc648be78390",
+    "bytes": 91118
+  },
+  {
+    "source_archive": "still-2026-10-28_18-56-50.zip",
+    "source_archive_sha256": "747637113b4f17ea0f1d317eda156a09513b7e64cfccf8839d85a7417f96f4d9",
+    "source_member": "AccelerometerUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_still_20261028/AccelerometerUncalibrated.csv",
+    "sha256": "3ec31f103aa227ee306f8f84f2e471e7e82da6836249de020b6671d596ba18ec",
+    "bytes": 81822
+  },
+  {
+    "source_archive": "still-2026-10-28_18-56-50.zip",
+    "source_archive_sha256": "747637113b4f17ea0f1d317eda156a09513b7e64cfccf8839d85a7417f96f4d9",
+    "source_member": "GyroscopeUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_still_20261028/GyroscopeUncalibrated.csv",
+    "sha256": "26f9161cd408dc19cbb7c42966dd40e3c94d736456117a0d9449089587f89a48",
+    "bytes": 90560
+  },
+  {
+    "source_archive": "still-2026-10-28_18-56-50.zip",
+    "source_archive_sha256": "747637113b4f17ea0f1d317eda156a09513b7e64cfccf8839d85a7417f96f4d9",
+    "source_member": "Metadata.csv",
+    "destination": "data/raw/p01_fresh_test_v2_still_20261028/Metadata.csv",
+    "sha256": "f5dd9b1e5f202769c68166207b0484710b967c99afd093edcc17dc87bd044ea3",
+    "bytes": 375
+  },
+  {
+    "source_archive": "still-2026-10-28_18-56-50.zip",
+    "source_archive_sha256": "747637113b4f17ea0f1d317eda156a09513b7e64cfccf8839d85a7417f96f4d9",
+    "source_member": "Annotation.csv",
+    "destination": "data/raw/p01_fresh_test_v2_still_20261028/Annotation.csv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "source_archive": "walking-2026-10-28_18-57-17.zip",
+    "source_archive_sha256": "4ffd54475724bd7a785655f7745730216e136e645a4d4804c6a3c496ccbc4621",
+    "source_member": "Accelerometer.csv",
+    "destination": "data/raw/p01_fresh_test_v2_walking_20261028/Accelerometer.csv",
+    "sha256": "e9466e12058b241c6010ce0d1f4c16797df40a4e1c6e231717bb6b9771c5c05b",
+    "bytes": 95354
+  },
+  {
+    "source_archive": "walking-2026-10-28_18-57-17.zip",
+    "source_archive_sha256": "4ffd54475724bd7a785655f7745730216e136e645a4d4804c6a3c496ccbc4621",
+    "source_member": "Gyroscope.csv",
+    "destination": "data/raw/p01_fresh_test_v2_walking_20261028/Gyroscope.csv",
+    "sha256": "3f6bde8841c9092770ea6a738b3288eb3012ba28d5f7a17eaa03f5b7c1318296",
+    "bytes": 96573
+  },
+  {
+    "source_archive": "walking-2026-10-28_18-57-17.zip",
+    "source_archive_sha256": "4ffd54475724bd7a785655f7745730216e136e645a4d4804c6a3c496ccbc4621",
+    "source_member": "AccelerometerUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_walking_20261028/AccelerometerUncalibrated.csv",
+    "sha256": "84010d407c5c803cf60c8bd9205d9aa16170ccf68f8dc67b698867f4cea9bdb4",
+    "bytes": 93204
+  },
+  {
+    "source_archive": "walking-2026-10-28_18-57-17.zip",
+    "source_archive_sha256": "4ffd54475724bd7a785655f7745730216e136e645a4d4804c6a3c496ccbc4621",
+    "source_member": "GyroscopeUncalibrated.csv",
+    "destination": "data/raw/p01_fresh_test_v2_walking_20261028/GyroscopeUncalibrated.csv",
+    "sha256": "02850aed002ffef2e64fba8fdec494739482877e6bb3879199b15ab5d33aa5ff",
+    "bytes": 96585
+  },
+  {
+    "source_archive": "walking-2026-10-28_18-57-17.zip",
+    "source_archive_sha256": "4ffd54475724bd7a785655f7745730216e136e645a4d4804c6a3c496ccbc4621",
+    "source_member": "Metadata.csv",
+    "destination": "data/raw/p01_fresh_test_v2_walking_20261028/Metadata.csv",
+    "sha256": "eecaa1930b5fd0faf375e7ab6815b2d82763d05a377965102e375b726c7fedcf",
+    "bytes": 375
+  },
+  {
+    "source_archive": "walking-2026-10-28_18-57-17.zip",
+    "source_archive_sha256": "4ffd54475724bd7a785655f7745730216e136e645a4d4804c6a3c496ccbc4621",
+    "source_member": "Annotation.csv",
+    "destination": "data/raw/p01_fresh_test_v2_walking_20261028/Annotation.csv",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  }
+]

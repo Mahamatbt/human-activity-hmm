@@ -1,0 +1,9 @@
+start_s,end_s,activity,timing_quality,source
+2,8,standing,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+8,22,walking,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+22,30,standing,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+30,41,jumping,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+41,54,standing,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+54,68,still,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+68,79,standing,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate
+79,94,walking,"approximate, not independently timed",participant-confirmed order; signal-assisted boundary estimate

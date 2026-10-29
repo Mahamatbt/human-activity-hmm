@@ -1,0 +1,19 @@
+{
+  "model_phase": "validation_selected",
+  "target_hz": 50,
+  "window_s": 2,
+  "evaluation_status": "provisional: approximate reference timings",
+  "reference_quality": "participant-confirmed orders; signal-assisted boundaries",
+  "boundary_guard_s": 2,
+  "test_order_signal_mismatch": true,
+  "smoothing": 0.1,
+  "variance_floor": 0.05,
+  "observed_cross_activity_transitions": 7,
+  "n_training_recordings": 5,
+  "n_training_windows": 282,
+  "n_validation_recordings": 1,
+  "n_test_recordings": 1,
+  "python": "3.13.0",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1"
+}

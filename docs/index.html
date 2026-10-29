@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activity recording evidence · Mahamat bakhit</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #16354a; background: #f3f6f8; }
+    body { max-width: 1050px; margin: auto; padding: 32px 20px; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin-bottom: 8px; }
+    p { line-height: 1.6; }
+    a { color: #075e99; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; margin: 24px 0; }
+    main { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,340px),1fr)); gap: 24px; }
+    article { background: white; padding: 20px; border: 1px solid #dce4eb; border-radius: 12px; }
+    h2 { margin: 0 0 12px; }
+    video { width: 100%; height: 380px; background: #0c1720; object-fit: contain; border-radius: 6px; }
+    .note { color: #536270; font-size: .9rem; }
+    footer { margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <header>
+    <p>Formative 2 · Hidden Markov Models</p>
+    <h1>Activity recording evidence</h1>
+    <p><strong>Mahamat bakhit</strong> · Individual iPhone study · 28 October 2026</p>
+    <p>Four activity demonstration videos accompanying the sensor dataset, Python notebook and report.</p>
+    <nav aria-label="Project links">
+      <a href="https://github.com/Mahamatbt/human-activity-hmm">GitHub repository</a>
+      <a href="https://github.com/Mahamatbt/human-activity-hmm/blob/main/output/pdf/activity_hmm_report_v2.pdf">Five-page report</a>
+      <a href="https://github.com/Mahamatbt/human-activity-hmm/blob/main/human_activity_hmm.ipynb">Executed notebook</a>
+    </nav>
+  </header>
+  <main>
+    <article id="standing">
+      <h2>Standing</h2>
+      <video controls playsinline preload="metadata" aria-label="Standing activity demonstration"><source src="videos/standing.mp4" type="video/mp4">Use the video link below to watch.</video>
+      <p><a href="videos/standing.mp4">Open standing video</a> · 9.77 seconds</p>
+    </article>
+    <article id="walking">
+      <h2>Walking</h2>
+      <video controls playsinline preload="metadata" aria-label="Walking activity demonstration"><source src="videos/walking.mp4" type="video/mp4">Use the video link below to watch.</video>
+      <p><a href="videos/walking.mp4">Open walking video</a> · 5.23 seconds</p>
+    </article>
+    <article id="jumping">
+      <h2>Jumping</h2>
+      <video controls playsinline preload="metadata" aria-label="Jumping activity demonstration"><source src="videos/jumping.mp4" type="video/mp4">Use the video link below to watch.</video>
+      <p><a href="videos/jumping.mp4">Open jumping video</a> · 11.48 seconds</p>
+    </article>
+    <article id="still">
+      <h2>Still — phone on a surface</h2>
+      <video controls playsinline preload="metadata" aria-label="Still phone on a flat surface demonstration"><source src="videos/still.mp4" type="video/mp4">Use the video link below to watch.</video>
+      <p><a href="videos/still.mp4">Open still video</a> · 10.33 seconds</p>
+      <p class="note">Some frames crop part of the participant at the left edge; this framing limitation is documented in the report.</p>
+    </article>
+  </main>
+  <footer><p class="note">These videos document activity demonstrations. They are not synchronized timing references for the mixed sensor recordings.</p></footer>
+</body>
+</html>
