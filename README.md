@@ -71,10 +71,10 @@ The temporary synthetic fixtures used by those checks are not study data.
 
 ## Video evidence and submission
 
-The public videos are [standing (9.77 s)](https://mahamatbt.github.io/human-activity-hmm/videos/standing.mp4),
-[walking (5.23 s)](https://mahamatbt.github.io/human-activity-hmm/videos/walking.mp4),
-[jumping (11.48 s)](https://mahamatbt.github.io/human-activity-hmm/videos/jumping.mp4) and
-[still (10.33 s)](https://mahamatbt.github.io/human-activity-hmm/videos/still.mp4). Sampled still-video frames crop
+The public videos are [standing (9.80 s)](https://mahamatbt.github.io/human-activity-hmm/videos/standing.mp4),
+[walking (5.27 s)](https://mahamatbt.github.io/human-activity-hmm/videos/walking.mp4),
+[jumping (11.34 s)](https://mahamatbt.github.io/human-activity-hmm/videos/jumping.mp4) and
+[still (10.30 s)](https://mahamatbt.github.io/human-activity-hmm/videos/still.mp4). Sampled still-video frames crop
 part of the participant at the left edge. Check the rubric's full-body, face,
 lighting and phone visibility criteria. The report includes the author's name,
 these video links and the [public GitHub repository](https://github.com/Mahamatbt/human-activity-hmm).
