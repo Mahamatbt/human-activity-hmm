@@ -49,8 +49,7 @@ fitting or tuning.
 The older V1 model scored 11/24 (45.83%) on an approximately labelled mixed test.
 The participant confirmed the activity order, but exact change times were not
 measured and the reported walking/still order conflicts with the signal pattern.
-That result is retained in `results/` and `output/pdf/activity_hmm_report_draft.pdf`
-as historical evidence. It uses a different model and reference design, so the
+That result is retained in `results/` as historical evidence. It uses a different model and reference design, so the
 45.83% and 90.00% figures are not a controlled paired comparison.
 
 To run locally:

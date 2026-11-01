@@ -31,7 +31,7 @@ least five seconds. Keep the required holding position consistent in other video
 
 ## 3. Finish the report and repository
 
-Read output/pdf/activity_hmm_report_draft.pdf and report_draft.md. Add your author
+Read output/pdf/activity_hmm_report_v2.pdf and report_draft.md (historical notes). Add your author
 name/ID and accessible video URLs; check the report's actual five-page layout after
 edits. Publish this project's contents to its own GitHub repository, including real
 CSV data, annotations, executed notebook, implementation, report and figures.
