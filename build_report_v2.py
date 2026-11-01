@@ -81,6 +81,9 @@ def page():
 
 p("Human Activity States<br/>Using a Hidden Markov Model", "TitleV2")
 p(f"{AUTHOR} | Individual iPhone study | Data collected 28 October 2026", "SmallV2")
+video_links = " | ".join(f'<link href="{escape(row["video_url"], quote=True)}" color="#075e99">{row["activity"].title()} ({float(row["duration_s"]):.2f} s)</link>' for row in videos)
+p("Video evidence: " + video_links + ".", "SmallV2")
+p(f'<link href="{REPOSITORY}" color="#075e99">GitHub repository: Mahamatbt/human-activity-hmm</link> · <link href="https://mahamatbt.github.io/human-activity-hmm/" color="#075e99">video gallery</link>.', "SmallV2")
 p("Fresh four-file test: 27 of 30 windows correct (90.00%). This evaluates steady activities for one participant and phone on the same day.", "NoteV2")
 h("1. Background and motivation")
 p("Students alternate between studying, standing pauses, walking and short exercise breaks. A phone-based study-break diary could recognize movement patterns and identify when the phone is left on a surface. Accelerometer and gyroscope measurements are noisy, so a reading does not directly reveal an activity. A Hidden Markov Model (HMM) combines signal features with activity persistence. This study asks whether one iPhone can distinguish standing while held, walking, jumping and a phone-on-surface still state. Still describes the device, not what its owner does away from it.")
@@ -93,9 +96,7 @@ for row in fresh:
                  int((float(row["trim_end_s"]) - float(row["trim_start_s"])) / 2)])
 table(rows, [155, 90, 135, WIDTH - 380])
 p("Four initial single-activity files and one mixed run trained the model (282 windows). One later mixed run supplied validation (21 windows). A previous mixed test (24 windows) is retained as historical V1 evidence. The four new single-activity files above formed the unseen V2 test (30 windows). All eleven files came from the same participant, device and date. Adjacent windows within a file are correlated.", "SmallV2")
-video_links = " | ".join(f'<link href="{escape(row["video_url"], quote=True)}" color="#075e99">{row["activity"].title()} ({float(row["duration_s"]):.2f} s)</link>' for row in videos)
-p("Video evidence: " + video_links + ".", "SmallV2")
-p(f'<link href="{REPOSITORY}" color="#075e99">GitHub repository: Mahamatbt/human-activity-hmm</link>. Browser-compatible video copies are included under docs/videos. Sampled still-video frames crop part of the person at the left edge; this remains a framing limitation.', "SmallV2")
+p("Browser-compatible video copies are included in the repository. Sampled still-video frames crop part of the person at the left edge; this remains a framing limitation.", "SmallV2")
 
 page()
 h("3. Preprocessing, features and reference quality")
